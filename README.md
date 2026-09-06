@@ -13,8 +13,9 @@ Building tools for prop firm futures traders. Solo, technical founder.
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/shootingallday/propfirm-calc/blob/main/LICENSE)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 
-Dependency-free Python math for funded accounts: trailing drawdown floor, the consistency
-rule, payout eligibility. Three calculations most journals get subtly wrong.
+Dependency-free Python math and CLI for funded accounts: trailing drawdown floor, the
+consistency rule, payout eligibility, position sizing, payout projection. The calculations
+most journals get subtly wrong.
 
 ```python
 from propfirm_calc import drawdown_floor
